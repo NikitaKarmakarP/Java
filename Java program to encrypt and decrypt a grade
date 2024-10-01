@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class EncryptDecrypt {
+    public static void main(String[] args) {
+        char grade = 'A';  // Example grade
+        
+        // Encrypt the grade
+        char encryptedGrade = (char)(grade + 8);
+        System.out.println("Encrypted grade: " + encryptedGrade);
+        
+        // Decrypt the grade
+        char decryptedGrade = (char)(encryptedGrade - 8);
+        System.out.println("Decrypted grade: " + decryptedGrade);
+    }
+}
