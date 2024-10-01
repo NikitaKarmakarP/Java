@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Comparison {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int userNumber = sc.nextInt();
+        
+        int predefinedNumber = 10;  // Example number to compare against
+        
+        if (predefinedNumber > userNumber) {
+            System.out.println(predefinedNumber + " is greater than " + userNumber);
+        } else {
+            System.out.println(predefinedNumber + " is not greater than " + userNumber);
+        }
+    }
+}
