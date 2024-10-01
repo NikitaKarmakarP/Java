@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class CheckInteger {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number:");
+        if (sc.hasNextInt()) {
+            int number = sc.nextInt();
+            System.out.println("You entered an integer: " + number);
+        } else {
+            System.out.println("The entered value is not an integer.");
+        }
+    }
+}
