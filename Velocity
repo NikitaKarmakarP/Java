@@ -1,0 +1,11 @@
+public class Expression {
+    public static void main(String[] args) {
+        int v = 10;  // Example value of v
+        int u = 5;   // Example value of u
+        int a = 2;   // Example value of a
+        int s = 3;   // Example value of s
+        
+        float result = (float)(v*v - u*u) / (2*a*s);
+        System.out.println("The result of the expression is: " + result);
+    }
+}
