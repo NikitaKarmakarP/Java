@@ -1,0 +1,9 @@
+public class FormatLetter {
+    public static void main(String[] args) {
+        // Define the letter with escape sequence characters
+        String letter = "Dear Harry,\n\tThis Java Course is nice.\nThanks!";
+
+        // Output the formatted letter
+        System.out.println(letter);
+    }
+}
