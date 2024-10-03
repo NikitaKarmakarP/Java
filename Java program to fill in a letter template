@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class LetterTemplate {
+    public static void main(String[] args) {
+        // Create a Scanner object for input
+        Scanner sc = new Scanner(System.in);
+
+        // Input the name from user
+        System.out.print("Enter the name to fill in the letter: ");
+        String name = sc.nextLine();
+
+        // Define the letter template
+        String letter = "Dear <|name|>, Thanks a lot";
+
+        // Replace <|name|> with the user's name
+        String filledLetter = letter.replace("<|name|>", name);
+
+        // Output the filled letter
+        System.out.println(filledLetter);
+
+        sc.close();
+    }
+}
