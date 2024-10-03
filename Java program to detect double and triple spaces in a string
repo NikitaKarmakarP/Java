@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class DetectSpaces {
+    public static void main(String[] args) {
+        // Create a Scanner object for input
+        Scanner sc = new Scanner(System.in);
+
+        // Input the string from user
+        System.out.print("Enter a string: ");
+        String inputString = sc.nextLine();
+
+        // Check for double and triple spaces
+        if (inputString.contains("  ")) {
+            System.out.println("The string contains double spaces.");
+        }
+        if (inputString.contains("   ")) {
+            System.out.println("The string contains triple spaces.");
+        }
+
+        sc.close();
+    }
+}
