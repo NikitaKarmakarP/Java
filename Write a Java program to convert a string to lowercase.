@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class StringToLowercase {
+    public static void main(String[] args) {
+        // Create a Scanner object for input
+        Scanner sc = new Scanner(System.in);
+
+        // Input the string from user
+        System.out.print("Enter a string: ");
+        String inputString = sc.nextLine();
+
+        // Convert the string to lowercase
+        String lowercaseString = inputString.toLowerCase();
+
+        // Output the lowercase string
+        System.out.println("Lowercase string: " + lowercaseString);
+
+        sc.close();
+    }
+}
