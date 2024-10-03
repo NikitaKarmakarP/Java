@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class ReplaceSpacesWithUnderscores {
+    public static void main(String[] args) {
+        // Create a Scanner object for input
+        Scanner sc = new Scanner(System.in);
+
+        // Input the string from user
+        System.out.print("Enter a string: ");
+        String inputString = sc.nextLine();
+
+        // Replace spaces with underscores
+        String modifiedString = inputString.replace(' ', '_');
+
+        // Output the modified string
+        System.out.println("Modified string: " + modifiedString);
+
+        sc.close();
+    }
+}
