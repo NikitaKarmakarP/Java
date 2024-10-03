@@ -17,7 +17,6 @@ Last else is executed only if all the conditions fail.
  if (condition1) {
 
             //Statements;
-
 else if {
 
             // Statements;
