@@ -27,6 +27,7 @@ Last else is executed only if all the conditions fail.
 
 # Switch Case Statements in Java
 # SYNTAX:
+#
   Switch(var) {
  	Case C1:
  		//Code;	
