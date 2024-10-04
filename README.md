@@ -3,7 +3,7 @@ This is my java repository, where I upload my all java code which I done. Stay c
 
 # If-Else Statement
 # Syntax of If-else statement in Java :
-if (condition-to-be-checked) {
+# if (condition-to-be-checked) {
 	statements-if-condition-true;
 }
 else {
@@ -14,16 +14,16 @@ Instead of using multiple if statements, we can also use else if along with if t
 Using such kind of logic reduces indents.
 Last else is executed only if all the conditions fail.
 # SYNTAX
- # if (condition1) {
-# 
- #           //Statements;
-# else if {
-# 
-#            // Statements;
+ if (condition1) {
 
-# }
+           //Statements;
+else if {
+ 
+            // Statements;
 
-# else {
+ }
+
+ else {
 
 # Switch Case Statements in Java
 # SYNTAX:
