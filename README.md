@@ -14,28 +14,28 @@ Instead of using multiple if statements, we can also use else if along with if t
 Using such kind of logic reduces indents.
 Last else is executed only if all the conditions fail.
 # SYNTAX
- if (condition1) {
+ # if (condition1) {
+# 
+ #           //Statements;
+# else if {
+# 
+#            // Statements;
 
-            //Statements;
-else if {
+# }
 
-            // Statements;
-
-}
-
-else {
+# else {
 
 # Switch Case Statements in Java
 # SYNTAX:
- Switch(var) {
-	Case C1:
-		//Code;	
-		break;
-	Case C2:
-		//Code;
-		break;	
-	Case C3:
-		//Code
+ # Switch(var) {
+# 	Case C1:
+# 		//Code;	
+# 		break;
+# 	Case C2:
+# 		//Code;
+# 		break;	
+# 	Case C3:
+# 		//Code
 		break;
 	default:
 		//Code
