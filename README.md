@@ -10,9 +10,9 @@ else {
 	statements-if-condition-false;
 } 
 # If-else ladder : 
-Instead of using multiple if statements, we can also use else if along with if thus forming an if-else-if-else ladder.
-Using such kind of logic reduces indents.
-Last else is executed only if all the conditions fail.
+# Instead of using multiple if statements, we can also use else if along with if thus forming an if-else-if-else ladder.
+# Using such kind of logic reduces indents.
+# Last else is executed only if all the conditions fail.
 # SYNTAX
  if (condition1) {
 
