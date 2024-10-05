@@ -1,0 +1,41 @@
+QUESTION:
+Calculate income tax paid by an employee to the government as per the slabs mentioned below:
+
+Income Slab	Tax
+2.5L – 5.0L  	5%
+5.0L – 10.0L 	20%
+Above 10.0L	30%
+
+POGRAME
+import java.util.Scanner;
+
+public class IncomeTaxCalculator {
+    public static void main(String[] args) {
+        // Scanner object to take input from the user
+        Scanner scanner = new Scanner(System.in);
+
+        // Input the annual income of the employee
+        System.out.print("Enter your annual income (in lakhs): ");
+        double income = scanner.nextDouble();
+        
+        // Initial tax value is 0
+        double tax = 0;
+
+        // Calculate the tax based on income slabs
+        if (income <= 2.5) {
+            tax = 0;  // No tax for income up to 2.5L
+        } else if (income <= 5.0) {
+            tax = (income - 2.5) * 0.05;  // 5% tax on income between 2.5L and 5.0L
+        } else if (income <= 10.0) {
+            tax = (2.5 * 0.05) + (income - 5.0) * 0.20;  // 5% on 2.5L-5.0L and 20% on income between 5.0L and 10.0L
+        } else {
+            tax = (2.5 * 0.05) + (5.0 * 0.20) + (income - 10.0) * 0.30;  // 5% on 2.5L-5.0L, 20% on 5.0L-10.0L, 30% on above 10.0L
+        }
+
+        // Print the calculated tax
+        System.out.println("Your income tax is: ₹" + tax + " lakhs");
+
+        // Close the scanner
+        scanner.close();
+    }
+}
