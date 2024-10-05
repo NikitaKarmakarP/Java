@@ -1,0 +1,20 @@
+# Function to check if student has passed or failed
+def check_pass_or_fail(marks):
+    total_marks = sum(marks)
+    total_percentage = (total_marks / 300) * 100  # Since 100 marks per subject, 3 subjects in total
+
+    # Check if marks in each subject are at least 33% and overall percentage is 40% or more
+    if all(mark >= 33 for mark in marks) and total_percentage >= 40:
+        return "Pass"
+    else:
+        return "Fail"
+
+# Input marks for 3 subjects
+marks = []
+for i in range(1, 4):
+    mark = float(input(f"Enter marks for subject {i}: "))
+    marks.append(mark)
+
+# Check and print result
+result = check_pass_or_fail(marks)
+print(f"Result: {result}")
