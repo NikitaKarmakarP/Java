@@ -3,14 +3,19 @@ This is my java repository, where I upload my all java code which I done. Stay c
 
 # If-Else Statement
 # Syntax of If-else statement in Java :
-/*
+
 if (condition-to-be-checked) {
+
 	statements-if-condition-true;
+ 
 }
+
 else {
+
 	statements-if-condition-false;
+ 
 } 
-*/
+
 
 # If-else ladder : 
 1) Instead of using multiple if statements, we can also use else if along with if thus forming an if-else-if-else ladder.
