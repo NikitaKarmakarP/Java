@@ -107,3 +107,7 @@ do{
 System.out.println(i);  
 i++;  
 }while(i<=10); 
+
+# Difference Between while loop and do-while loop :
+1) while – checks the condition & executes the code.
+2) do-while – executes the code at least once and then checks the condition. Because of this reason, the code in the do-while loop executes at least once, even if the condition fails.
