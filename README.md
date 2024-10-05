@@ -3,7 +3,8 @@ This is my java repository, where I upload my all java code which I done. Stay c
 
 # If-Else Statement
 # Syntax of If-else statement in Java :
-# if (condition-to-be-checked) {
+
+if (condition-to-be-checked) {
 	statements-if-condition-true;
 }
 else {
