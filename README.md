@@ -98,7 +98,8 @@ i--;
 
             //code
 
-} while (condition);            //Note this semicolon */
+} while (condition);            
+//Note this semicolon */
 
 # Example : 
 int i=1;  
