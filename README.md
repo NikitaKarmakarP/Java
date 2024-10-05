@@ -28,7 +28,7 @@ else if {
 
 # Switch Case Statements in Java
 # SYNTAX:
-#  Switch(var) {
+Switch(var) {
  	Case C1:
  		//Code;	
  		break;
