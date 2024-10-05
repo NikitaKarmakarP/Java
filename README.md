@@ -28,6 +28,7 @@ else if {
 
 # Switch Case Statements in Java
 # SYNTAX:
+/*
 Switch(var) {
  	Case C1:
  		//Code;	
@@ -40,6 +41,7 @@ Switch(var) {
 		break;
 	default:
 		//Code
+*/
 
 *In programming languages, loops are used to execute a particular statement/set of instructions again and again.
 *The execution of the loop starts when some conditions become true.
